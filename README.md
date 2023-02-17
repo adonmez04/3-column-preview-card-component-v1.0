@@ -10,7 +10,7 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 ## Links
 
-- [My Live Site](My-live-site-in-github.io)
+- [My Live Site](https://adonmez04.github.io/3-column-preview-card-component-v1.0/)
 
 - [My Solution Page](https://www.frontendmentor.io/solutions/fem4threecolumnpreviewcardcomponentv21-themobilefirst-jvW-eAl2Ll)
 
@@ -77,7 +77,7 @@ Nice to complete this challenge, here is a sugessetion for your question about h
 
 Replace `<strong>` with `<h1>` and you can adjust font-size in css. For further reading please visit the Heading.
 
-I hope this will help you .
+I hope this will help you.
 
 Well done and best of luck for the next challenge.
 
