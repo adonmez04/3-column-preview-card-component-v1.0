@@ -45,7 +45,7 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 ## Community Feedbacks
 
-1. From Grace Snow:
+**1. From Grace Snow:**
 
 That is not a problem!!!
 There are BIG issues in this solution though. It is not at all responsive and is missing some key semantics
@@ -70,7 +70,7 @@ Whether or not you do that, these icons are decorative so should not have an alt
 
 You must use heading elements not just strong tags
 
-2. From ZMB
+**2. From ZMB:**
 
 Hi,
 
