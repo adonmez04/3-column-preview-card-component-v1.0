@@ -40,15 +40,25 @@ Welcome to my solution page. I hope you'll find some good implemantions for this
 
 That is not a problem!!!
 There are BIG issues in this solution though. It is not at all responsive and is missing some key semantics
+
 You should not be using position absolute anywhere in this. But especially do not use it to try and place your component on the page. You need to understand what position absolute does - it removes elements from the normal document flow. So this is currently like the body has no content at all.
+
 To center a component on a page, use flex/grid properties along with min-height 100%. The component will need a little bit of margin or the wrapping element a little bit of padding - just so the component cannot hit screen edges
+
 .section-preview-card and the article-cards must not have height. Never limit height on elements containing text. Let the browser decide how tall they need to be.
+
 .section-preview-card and article-cards must not have width. All you need on this is a max-width on the component (or cards) and that changes between desktop/mobile. It must be max-width in order to be properly responsive
+
 The padding looks too much on mobile
+
 You will need to add more margin-top / bottom to increase the space between buttons and paragraph once the heights have been removed.
+
 HTML:
+
 It is generally poor practice to include empty divs in html. And background images are less performant than including images in the html. For those reasons I’d recommend changing the icons to be in the HTML either as img tags or inline svgs. OPTIONAL though, just a recommendation
+
 Whether or not you do that, these icons are decorative so should not have an alt description (or should not have role img or aria-label if on a div)
+
 You must use heading elements not just strong tags
 
 2. From ZMB
