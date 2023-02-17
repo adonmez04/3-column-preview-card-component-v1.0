@@ -75,7 +75,7 @@ Nice to complete this challenge, here is a sugessetion for your question about h
 </p>
 ```
 
-Replace <strong> with <h1> and you can adjust font-size in css. For further reading please visit the Heading.
+Replace `<strong>` with `<h1>` and you can adjust font-size in css. For further reading please visit the Heading.
 
 I hope this will help you .
 
