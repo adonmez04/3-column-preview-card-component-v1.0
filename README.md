@@ -67,7 +67,13 @@ Hi,
 
 Nice to complete this challenge, here is a sugessetion for your question about heading;
 
-<strong class="article-card__title">Sedans</strong> <p class="article-card__description"> Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip. </p>
+```html
+<strong class="article-card__title">Sedans</strong>
+<p class="article-card__description">
+  Choose a sedan for its affordability and excellent fuel economy. Ideal for
+  cruising in the city or on your next road trip.
+</p>
+```
 
 Replace <strong> with <h1> and you can adjust font-size in css. For further reading please visit the Heading.
 
