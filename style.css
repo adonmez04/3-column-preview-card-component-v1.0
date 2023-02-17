@@ -1,0 +1,180 @@
+/* THE MOBILE FIRST SOLUTION */
+/* Under 750px */
+
+/*****************/
+/* Global Styles */
+/*****************/
+
+/* To import the font styles */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background: #f2f2f2;
+  font-style: "sans-serif";
+  font-size: 15px;
+
+  /* To align the content such as the desing file.*/
+  position: relative;
+}
+
+/*****************/
+/* Component Styles */
+/*****************/
+
+main {
+  /* To align the content such as the desing file.*/
+  position: absolute;
+  left: 16.25rem;
+  top: 10.6875rem;
+}
+
+.section-preview-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  /* temp? */
+  width: 20.4375rem;
+  height: 82.875rem;
+
+  /* The Grid Template */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.article-card {
+  padding: 3rem;
+
+  /* The Flexbox Template */
+  display: flex;
+  flex-direction: column;
+  gap: 2.1875rem;
+
+  /* temp? */
+  width: 20.4375rem;
+  height: 27.625rem;
+}
+
+/* To change the background color of article area, buttons and button's texts */
+.article-card--sedans {
+  background: #e28625;
+  color: #e28625;
+}
+
+.article-card--suvs {
+  background: #006971;
+  color: #006971;
+}
+
+.article-card--luxury {
+  background: #004140;
+  color: #004140;
+}
+
+/* ***THE ICON AREA*** - START */
+
+.article-card__icon-area {
+  margin-left: 0.0625rem;
+}
+
+.article-card__icon {
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 2.5rem;
+}
+/* To change the icons */
+.article-card__icon--sedans {
+  background-image: url(./images/icon-sedans.svg);
+}
+
+.article-card__icon--suvs {
+  background-image: url(./images/icon-suvs.svg);
+}
+
+.article-card__icon--luxury {
+  background-image: url(./images/icon-luxury.svg);
+}
+
+/* ***THE ICON AREA*** - END */
+
+.article-card__content-area {
+  /* The Flexbox Template */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625rem;
+}
+
+.article-card__title {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+
+  margin-left: 0.0625rem;
+}
+
+.article-card__description {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+
+  margin-left: 0.0313rem;
+}
+
+/* ***THE BUTTON AREA*** - START */
+
+.btn-area {
+  margin-left: 0.0625rem;
+  margin-top: auto;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+
+  /* To add the padding */
+  width: 9.125rem;
+  height: 3rem;
+  background: #f2f2f2;
+  border-radius: 1.5625rem;
+
+  /* To center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+}
+
+.btn:hover,
+.btn:active {
+  border: 0.125rem solid #ffffff;
+  border-radius: 1.5625rem;
+  background-color: inherit;
+  color: white;
+}
+
+/* ***THE BUTTON AREA*** - END */
